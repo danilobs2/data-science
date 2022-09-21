@@ -1,0 +1,10 @@
+age = 30
+name = "Pedro"
+
+print("Nome: "+name)
+
+# CONSTANTES
+
+ISSO_E_UMA_CONTANTE = "CONSTANTE SÃO VARIAVEIS COM LETRA MAIUSCULA"
+VALOR_BOLEANO = False
+VALOR = 1000
