@@ -19,3 +19,11 @@ Saída
 Seu programa deve produzir uma única linha com um número racional representando o número médio de cachorros-quentes consumidos pelos participantes.
 O resultado deve ser escrito como um número racional com exatamente dois dígitos após o ponto decimal, arredondado se necessário.
 """
+valores = input().split()
+
+totalHotDog = float(valores[0])
+participantes = float(valores[1])
+
+media = totalHotDog / participantes
+
+print(f"{media:.2f}")
